@@ -1,0 +1,12 @@
+{
+    "interactiveTitle": "My Checklist",
+    "intructions": "yay Checklist",
+    "checklistDataItems": [{
+        "lable": "build a list",
+        "subLable": "List are fun",
+        "isChecked": false
+    }, {
+        "lable": "add list items",
+        "isChecked": false
+    }]
+}
