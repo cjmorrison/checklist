@@ -3,7 +3,7 @@
     "intructions": "yay Checklist",
     "checklistDataItems": [{
         "lable": "build a list",
-        "subLable": "List are fun",
+        "subLable": "List <strong>are</strong> fun",
         "isChecked": false
     }, {
         "lable": "add list items",

@@ -203,12 +203,28 @@ class IntractiveWrapper extends React.Component<PropType, StateType> {
               <ListItemText
                 id={`checkListItemLable-${listItmIndex}`}
                 primary={
-                  this.state.checklistData.checklistDataItems[listItmIndex]
-                    .lable
+                  <div
+                    dangerouslySetInnerHTML={{
+                      __html:
+                        this.state.checklistData.checklistDataItems[
+                          listItmIndex
+                        ].lable,
+                    }}
+                  >
+           
+                  </div>
                 }
                 secondary={
-                  this.state.checklistData.checklistDataItems[listItmIndex]
-                    .subLable
+                  <div
+                    dangerouslySetInnerHTML={{
+                      __html:
+                        this.state.checklistData.checklistDataItems[
+                          listItmIndex
+                        ].subLable,
+                    }}
+                  >
+                   
+                  </div>
                 }
               />
             </ListItemButton>
